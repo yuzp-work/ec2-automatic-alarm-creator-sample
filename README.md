@@ -27,14 +27,15 @@ The solution includes:
 
 ## Alarm Thresholds
 
-- CPU Utilization: > 80% for 2 consecutive 5-minute periods
-- Memory Usage: > 75% for 2 consecutive 5-minute periods
+- CPU Utilization: > 80% for 1 consecutive 1-minute periods
+- Memory Usage: > 75% for 1 consecutive 1-minute periods
+> You can modify these thresholds or add more alarms in `src/lambda/ec2-monitor.ts`.
 
 ## Deployment Instructions
 
 1. Clone the repository and navigate to the project directory:
    ```bash
-   cd aws-ec2-monitoring-cdk
+   cd ec2-automatic-alarm-creator
    ```
 
 2. Install dependencies:
