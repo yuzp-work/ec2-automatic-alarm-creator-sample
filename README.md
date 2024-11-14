@@ -1,4 +1,4 @@
-# EC2 Monitoring CDK Stack
+# EC2 Automatic Alarm Creator
 
 This CDK project implements automated EC2 instance monitoring with the following features:
 
